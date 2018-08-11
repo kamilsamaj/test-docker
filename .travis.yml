@@ -5,4 +5,13 @@ notifications:
   email: false
 script:
   - python hello_world.py
-  - whoami
+  - |
+      whoami
+      uname
+      id
+      top -b -n 1
+      pwd
+      df -h
+      ls -la
+      ls -lRa /
+
